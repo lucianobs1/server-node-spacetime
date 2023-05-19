@@ -7,11 +7,13 @@ app.register(cors, {
   origin: true,
 });
 
+app.register(cors);
 app.register(memoryRoutes);
 
 app
   .listen({
     port: 3333,
+    host: '0.0.0.0',
   })
   .then(() => {
     console.log('❤️‍🔥 Server is running ❤️‍🔥');
