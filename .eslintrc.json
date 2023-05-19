@@ -3,6 +3,7 @@
   "rules": {
     "quotes": "off",
     "semi": ["error", "always"],
+    "camelcase": "off",
     "prettier/prettier": ["error", { "semi": true }]
   }
 }
